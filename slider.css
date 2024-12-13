@@ -1,0 +1,86 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* html, body{
+    height: 90%;
+    width: 100%;
+} */
+body{
+    background: rgb(77,94,146);
+    background: radial-gradient(circle, rgba(77,94,146,1) 0%, rgba(52,70,182,1) 29%, rgba(72,113,200,1) 49%, rgba(36,19,228,1) 91%);
+}
+.gparent{
+    height: 650px;
+    width: 1450px;
+    position: absolute;
+    background: rgb(121,77,146);
+    background: radial-gradient(circle, rgba(121,77,146,1) 0%, rgba(128,52,182,1) 29%, rgba(80,72,200,1) 49%, rgba(146,64,173,1) 91%);
+    margin: 2.2% 2.5%;
+    box-shadow: white 5px 5px 30px;
+    border-radius: 20px;
+}
+.parent{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 70%;
+    top: 16%;
+    left: 25%;
+    border-radius: 20px;
+}
+.one{
+    background-image: url(image/ds.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    justify-content: center;
+    border: solid white 2.2px;
+    border-radius: 15px;
+    margin: 0px 1.1px;
+}
+
+.two{
+    background-image: url(image/sc.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    justify-content: center;
+    border: solid white 2.2px;
+    border-radius: 15px;
+    margin: 0px 1.1px;
+}
+.three{
+    background-image: url(image/sm.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    justify-content: center;
+    border: solid white 2.2px;
+    border-radius: 15px;
+    margin: 0px 1.1px;
+}
+
+.four{
+    background-image: url(image/th.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    justify-content: center;
+    border: solid white 2.2px;
+    border-radius: 15px;
+    margin: 0px 1.1px;
+}
+
+.card{
+    flex: 1;
+    height: 100%;
+    transition: flex ease 0.3s;
+    cursor: pointer;
+}
+
+.card:hover{
+    flex: 3.3;
+    box-shadow: white 10px 10px 15px;
+    
+}
